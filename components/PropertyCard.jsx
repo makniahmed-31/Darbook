@@ -8,6 +8,7 @@ import {
   FaMapMarker,
 } from "react-icons/fa";
 import defaultImg from "@/assets/images/default-image.jpg";
+import PropertyComments from "./PropertyComments";
 
 const PropertyCard = ({ property }) => {
   const getRateDisplay = () => {
@@ -21,7 +22,6 @@ const PropertyCard = ({ property }) => {
       return `${rates.nightly.toLocaleString()}/night`;
     }
   };
-
   return (
     <div className="rounded-xl shadow-md relative">
       <Image
@@ -78,9 +78,9 @@ const PropertyCard = ({ property }) => {
           )}
         </div>
 
-        <div className="border border-gray-100 mb-5"></div>
+        <div className="border border-gray-100 mb-2"></div>
 
-        <div className="flex flex-col lg:flex-row justify-between mb-4">
+        <div className="flex flex-col lg:flex-row justify-between items-center mb-4">
           <div className="flex align-middle gap-2 mb-4 lg:mb-0">
             <FaMapMarker className="text-[#FE7A36] mt-1" />
             <span className="text-[#FE7A36]">
@@ -93,6 +93,10 @@ const PropertyCard = ({ property }) => {
           >
             Details
           </Link>
+        </div>
+        <div className="border border-gray-100 mb-2"></div>
+        <div className="flex justify-center items-center mb-4 text-xs md:text-sm">
+          <PropertyComments />
         </div>
       </div>
     </div>
