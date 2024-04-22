@@ -29,7 +29,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-blue-700 border-b border-blue-500">
+    <nav className="bg-[#1C1678] border-b border-blue-500">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-20 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
@@ -37,7 +37,7 @@ const Navbar = () => {
             <button
               type="button"
               id="mobile-dropdown-button"
-              className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-[#9AC8CD] hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded={isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((prev) => !prev)}
@@ -73,7 +73,8 @@ const Navbar = () => {
               />
 
               <span className="hidden md:block text-white text-2xl font-bold ml-2">
-                darCom
+                dar<span className="text-[#FF71CD]">C</span>
+                <span className="text-[#8576FF]">o</span>m
               </span>
             </Link>
             {/* <!-- Desktop Menu Hidden below md screens --> */}
@@ -82,16 +83,16 @@ const Navbar = () => {
                 <Link
                   href="/"
                   className={`${
-                    pathname === "/" ? "bg-black" : ""
-                  } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                    pathname === "/" ? "bg-[#FF71CD]" : ""
+                  } text-white hover:bg-[#8576FF] hover:text-white rounded-md px-3 py-2`}
                 >
                   Home
                 </Link>
                 <Link
                   href="/properties"
                   className={`${
-                    pathname === "/properties" ? "bg-black" : ""
-                  } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                    pathname === "/properties" ? "bg-[#FF71CD]" : ""
+                  } text-white hover:bg-[#8576FF] hover:text-white rounded-md px-3 py-2`}
                 >
                   Properties
                 </Link>
@@ -99,8 +100,8 @@ const Navbar = () => {
                   <Link
                     href="/properties/add"
                     className={`${
-                      pathname === "/properties/add" ? "bg-black" : ""
-                    } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                      pathname === "/properties/add" ? "bg-[#FF71CD]" : ""
+                    } text-white hover:bg-[#8576FF] hover:text-white rounded-md px-3 py-2`}
                   >
                     Add Property
                   </Link>
@@ -239,7 +240,7 @@ const Navbar = () => {
             <Link
               href="/"
               className={`${
-                pathname === "/" ? "bg-black" : ""
+                pathname === "/" ? "bg-[#FF71CD]" : ""
               } text-white block rounded-md px-3 py-2 text-base font-medium`}
             >
               Home
@@ -247,7 +248,7 @@ const Navbar = () => {
             <Link
               href="/properties"
               className={`${
-                pathname === "/properties" ? "bg-black" : ""
+                pathname === "/properties" ? "bg-[#FF71CD]" : ""
               } text-white block rounded-md px-3 py-2 text-base font-medium`}
             >
               Properties
@@ -256,7 +257,7 @@ const Navbar = () => {
               <Link
                 href="/properties/add"
                 className={`${
-                  pathname === "/properties/add" ? "bg-black" : ""
+                  pathname === "/properties/add" ? "bg-[#FF71CD]" : ""
                 } text-white block rounded-md px-3 py-2 text-base font-medium`}
               >
                 Add Property
