@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "photoswipe/dist/photoswipe.css";
 
 export const metadata = {
-  title: "Darbook | Find The Perfect Rental",
+  title: "darCom | Find The Perfect Rental",
   description: "Find your dream rental property",
   keywords: "rental, find rentals, find properties",
 };
