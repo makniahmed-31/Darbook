@@ -589,7 +589,7 @@ const PropertyEditForm = () => {
 
         <div>
           <button
-            className="bg-[#9AC8CD] hover:bg-[#FF71CD] text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline"
+            className="bg-[#8B93FF] hover:bg-[#5755FE] text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline"
             type="submit"
           >
             Update Property

@@ -126,7 +126,7 @@ const ProfilePage = () => {
                     <div className="mt-2">
                       <Link
                         href={`/properties/${property._id}/edit`}
-                        className="bg-[#9AC8CD] text-white px-3 py-3 rounded-md mr-2 hover:bg-[#FF71CD]"
+                        className="bg-[#8B93FF] text-white px-3 py-3 rounded-md mr-2 hover:bg-[#5755FE]"
                       >
                         Edit
                       </Link>

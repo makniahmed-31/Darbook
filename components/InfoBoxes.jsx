@@ -11,7 +11,7 @@ const InfoBoxes = () => {
             buttonInfo={{
               text: "Browse Properties",
               link: "/properties",
-              backgroundColor: "bg-[#FF71CD]",
+              backgroundColor: "bg-[#5755FE]",
             }}
           >
             Find your dream rental property. Bookmark properties and contact
@@ -23,7 +23,7 @@ const InfoBoxes = () => {
             buttonInfo={{
               text: "Add Property",
               link: "/properties/add",
-              backgroundColor: "bg-[#9AC8CD]",
+              backgroundColor: "bg-[#8B93FF]",
             }}
           >
             List your properties and reach potential tenants. Rent short or long

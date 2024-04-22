@@ -77,15 +77,15 @@ const FeaturedPropertyCard = ({ property }) => {
 
         <div className="flex flex-col lg:flex-row justify-between">
           <div className="flex align-middle gap-2 mb-4 lg:mb-0">
-            <FaMapMarker className="text-lg text-[#FF71CD]" />
-            <span className="text-[#FF71CD]">
+            <FaMapMarker className="text-lg text-[#FE7A36]" />
+            <span className="text-[#FE7A36]">
               {" "}
               {property.location.city} {property.location.state}
             </span>
           </div>
           <Link
             href={`/properties/${property._id}`}
-            className="h-[36px] bg-[#9AC8CD] hover:bg-[#FF71CD] text-white px-4 py-2 rounded-lg text-center text-sm"
+            className="h-[36px] bg-[#8B93FF] hover:bg-[#5755FE] text-white px-4 py-2 rounded-lg text-center text-sm"
           >
             Details
           </Link>
